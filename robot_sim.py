@@ -17,7 +17,7 @@ def back(new_position,current_position):
     return current_position
 
 while movement != "exit":
-    movement = input(f" : how would you like me to move: ")
+    movement = input(f"{robot_name} : how would you like me to move: ")
     if movement == "foward":
         foward()
     elif movement == "back":
